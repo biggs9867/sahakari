@@ -419,7 +419,7 @@ Search pop up
 }
 .search_inner [type="submit"] {
   padding: 5px 12px;
-  background: url(http://biggs9867.github.io/sahakari/wp-content/themes/lawyer-hub/assets/images/search.png) no-repeat scroll 0 4px;
+  background: url(https://biggs9867.github.io/sahakari/wp-content/themes/lawyer-hub/assets/images/search.png) no-repeat scroll 0 4px;
   font-size: 13px;
   text-align: center;
   float: right;
@@ -1040,7 +1040,7 @@ Commen CSS
   padding: 3% 0;
 }
 .sticky .page-box h4{
-  background: url(http://biggs9867.github.io/sahakari/wp-content/themes/lawyer-hub/assets/images/pin.png) no-repeat scroll 0 0px;
+  background: url(https://biggs9867.github.io/sahakari/wp-content/themes/lawyer-hub/assets/images/pin.png) no-repeat scroll 0 0px;
   padding-left: 40px;
 }
 #gallery-1 img {
