@@ -1,0 +1,183 @@
+/*
+Theme Name: Legal Law Consulting
+Template: lawyer-hub
+Text Domain: legal-law-consulting
+Author: ThemesPride
+Author URI: https://www.themespride.com/
+Theme URI: https://www.themespride.com/themes/free-law-wordpress-theme/
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Description: Legal Law Consulting is a theme designed for Law firms, Law Advisers. Barristers can also use it, Legal Consultants, Legal Officers, Legal Advisors, Legal Counsels, and Consultancy. Finance, Solicitors, Advocates, Counsels. It can be used with any corporate website. Both beginners and advanced programmers can use it. This theme was created with the profiles of these individuals and companies in mind. The Legal Law Consulting theme has well-designed homepages with various looks and feel. This theme is great for different company profiles. This theme has a comprehensive options panel, unique page transitions, distinctive typography, and highly-rated customizable plugins. The theme also features a simple and quick system. Legal Law Consulting offers a one-click demo content uploader tool that will allow you to create a fully functional website. The theme options panel allows you to personalize your WordPress website and replace the demo content with yours. Our highly-rated support team provides free updates and post-sales support. This theme is optimized for law websites of all types and comes with tons of options and flexible elements that can be used to create a website. Legal Law Consulting can help you create a landing page for your law firm, a personal website for a lawyer, or any other type of law-related website quickly and easily.
+Tags: wide-blocks, block-styles, one-column, two-columns, right-sidebar, left-sidebar, three-columns, four-columns, grid-layout, custom-colors, custom-header, custom-background, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, full-width-template, sticky-post, theme-options, threaded-comments, news, portfolio, education
+Version: 0.2.1
+Tested up to: 6.1
+Requires PHP: 7.4
+Requires at least: 5.0
+*/
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Cardo', serif;
+}
+
+/*COLOR 01*/
+
+.header-box,#theme-sidebar button[type="submit"]:hover, #footer button[type="submit"]:hover, .readmore-btn a:hover, #comments input[type="submit"]:hover, span.meta-nav:hover,.woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover,#footer,#about .more-btn a:hover,#services .book-tkt-btn a.register-btn:hover,#slider{
+    background: #454545;
+}
+h1, h2, h3, h4, h5, h6,.box-info i,nav.woocommerce-MyAccount-navigation ul li a{
+    color: #454545;
+}
+.main-navigation .current_page_item > a, .main-navigation .current-menu-item > a,.main-navigation a:hover, .main-navigation .current_page_ancestor > a{
+    color: #454545 !important;
+}
+nav.woocommerce-MyAccount-navigation ul li,.search_inner form.search-form{
+    border-color: #454545;
+    box-shadow: 2px 2px 0 0 #333a4d;
+}
+.search_inner form.search-form{
+    box-shadow: none;
+}
+
+/*COLOR 02*/
+
+.book-tkt-btn a.register-btn,.search-box i,.readmore-btn a,#theme-sidebar button[type="submit"], #footer button[type="submit"],.prev.page-numbers, .next.page-numbers,.page-numbers,#theme-sidebar .tagcloud a:hover,.site-info,span.meta-nav,#slider .carousel-control-prev-icon, #slider .carousel-control-next-icon,.more-btn a,.woocommerce ul.products li.product .onsale, .woocommerce span.onsale,.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt,#comments input[type="submit"],.innermenuboxupper,.page-template-front-page .innermenuboxupper,.main-navigation ul ul{
+    background: #ec4933;
+}
+a, a:hover,.email-info i,#theme-sidebar h3,#theme-sidebar a:hover,#theme-sidebar .textwidget a, #footer .textwidget a, .comment-body a, .entry-content a, .entry-summary a, #main-content p a,p.phone-info i,#about h3 i,#slider .carousel-control-prev-icon:hover, #slider .carousel-control-next-icon:hover{
+    color: #ec4933;
+}
+#about hr{
+    border-color: #ec4933;
+}
+
+/*COLOR #FFF*/
+
+.logo a,p.site-description,.email-info h6,.email-info p,p.phone-info,#about .more-btn a:hover,#services .book-tkt-btn a.register-btn:hover{
+    color: #fff;
+}
+
+/*HEADER*/
+
+.page-template-front-page .header-box{
+    position: static;
+}
+.innermenubox{
+    border: none;
+}
+.logo h1{
+    font-size: 25px;
+}
+.book-tkt-btn a.register-btn:hover,.search-box i:hover,.more-btn a:hover{
+    background: #fff;
+    color: #454545;
+}
+p.phone-info {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*SLIDER*/
+
+#slider .carousel-caption {
+    right: 45%;
+}
+#slider .inner_carousel h2{
+    text-transform: none;
+}
+
+/*SERVICES*/
+
+#services h3 i {
+    color: #ec4933;
+    font-size: 50px;
+}
+#services .box{
+    background: #ec4933;
+    overflow: hidden;
+    position: relative;
+}
+#services .box:hover{
+    background: #fff;
+}
+#services .box img {
+    width: 100%;
+    opacity: 0.5;
+}
+#services .box img{
+    width: 100%;
+}
+#services .box .box-content{
+    color: #fff;
+    width: 100%;
+    padding: 0 20px;
+    transform: translateY(-50%);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: 2;
+    transition: all 0.5s ease;
+}
+#services .box:hover .box-content{
+    opacity: 1;
+    top: 50%;
+}
+#services .box .title {
+    font-size: 20px;
+    margin: 0 0 20px;
+    color: #fff;
+}
+#services .box .post{
+    font-size: 15px;
+}
+#services .box-content a{
+    font-weight: 600;
+    color: #fff;
+    font-size: 16px;
+}
+#services .box-content i {
+    color: #fff;
+    font-size: 50px;
+}
+#services .box:hover .title,#services .box:hover a,#services .box:hover .post,#services .box:hover i{
+    color: #454545;
+}
+
+.site-info a:hover{
+  color: #fff;
+}
+
+@media screen and (max-width: 560px){
+    .book-tkt-btn a.register-btn{
+        font-size: 12px;
+    }
+    #slider .inner_carousel h2{
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .sidenav,.main-navigation ul ul {
+        background-color: #454545;
+    }
+    #slider .carousel-caption {
+        right: 15%;
+    }
+    .toggle-nav i{
+        color: #ec4933;
+    }
+    .main-navigation .current_page_item > a, .main-navigation .current-menu-item > a, .main-navigation a:hover, .main-navigation .current_page_ancestor > a{
+        color: #ec4933 !important;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1199px){
+    #slider .carousel-caption {
+        right: 30%;
+    }
+    .book-tkt-btn a.register-btn{
+        font-size: 12px;
+    }
+}

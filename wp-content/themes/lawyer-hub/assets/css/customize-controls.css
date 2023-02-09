@@ -1,0 +1,16 @@
+/* ---------Customizer--------- */
+.control-section-lawyer-hub h3.accordion-section-title {
+	background: #e0a762 !important;
+	color: #fff !important;
+    padding: 20px 10px;
+}
+a.button.button-secondary.alignright {
+    color: #e0a762;
+    box-shadow: none;
+    font-weight: bold;
+    padding: 0 10px;
+    background: transparent;
+    height: 31px;
+    background: #fff;
+    border: none;
+}
